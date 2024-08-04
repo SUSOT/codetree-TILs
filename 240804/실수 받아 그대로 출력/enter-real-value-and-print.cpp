@@ -5,7 +5,7 @@ int main() {
     double a;
     cin >> a;
 
-    cout.precision(4);
+    cout.precision(2);
     cout << a;
     return 0;
 }
