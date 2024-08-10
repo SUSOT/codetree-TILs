@@ -7,7 +7,7 @@ int main() {
     b = a * a;
     if(b < 5)
     {
-        cout << b << "tiny";
+        cout << b << endl << "tiny";
     }
     else
     {
