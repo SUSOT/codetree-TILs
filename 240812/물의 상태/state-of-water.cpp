@@ -10,11 +10,11 @@ int main() {
     }
     else if(a >= 100)
     {
-        cout << "water";
+        cout << "vapor";
     }
     else
     {
-        cout << "vapor";
+        cout << "water";
     }
     return 0;
 }
