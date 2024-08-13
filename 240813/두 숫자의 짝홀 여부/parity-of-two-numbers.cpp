@@ -6,11 +6,11 @@ int main() {
     cin >> a;
     if(a % 2 == 0)
     {
-        cout << "even";
+        cout << "even" << endl;
     }
     else
     {
-        cout << "odd";
+        cout << "odd" << endl;
     }
     cin >> b;
     if(b % 2 == 0)
