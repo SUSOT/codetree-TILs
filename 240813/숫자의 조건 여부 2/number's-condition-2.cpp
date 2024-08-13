@@ -8,13 +8,9 @@ int main() {
     {
         cout << "A";
     }
-    else if(a % 2 == 0)
+    if(a % 2 == 0)
     {
         cout << " B";
-    }
-    else
-    {
-        cout <<"";
     }
     return 0;
 }
