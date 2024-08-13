@@ -6,11 +6,11 @@ int main() {
     cin >> a;
     if(a % 3 == 0)
     {
-        cout << "YES";
+        cout << "YES" << endl;
     }
     else
     {
-        cout << "NO";
+        cout << "NO" << endl;
     }
     if(a % 5 == 0)
     {
