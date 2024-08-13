@@ -10,7 +10,7 @@ int main() {
     }
     if(a % 2 == 0)
     {
-        cout << " B";
+        cout << "B";
     }
     return 0;
 }
