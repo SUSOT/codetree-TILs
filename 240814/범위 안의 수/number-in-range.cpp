@@ -6,11 +6,11 @@ int main() {
     cin >> a;
     if(a >= 10 && a <= 20)
     {
-        cout << 1;
+        cout << "yes";
     }
     else
     {
-        cout << 0;
+        cout << "no";
     }
     return 0;
 }
