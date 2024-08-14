@@ -6,11 +6,11 @@ int main() {
 cin >> a >> b >> c;
 if (b > c)
 {
-	cout << (a > b) << " ";
+	cout << (a == b) << " ";
 }
 else
 {
-	cout << (a > c) << " ";
+	cout << (a == c) << " ";
 }
 
 cout << (a == b && a == c);
