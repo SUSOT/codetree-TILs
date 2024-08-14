@@ -8,7 +8,7 @@ if(a < b && a < c)
 {
     cout << "1";
 }
-if (b > c)
+else if (b > c)
 {
 	cout << (a == b) << " ";
 }
