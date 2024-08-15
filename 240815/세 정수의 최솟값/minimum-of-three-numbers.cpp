@@ -12,7 +12,19 @@ int main() {
     {
         cout << b;
     }
-    else 
+    else if(c < a && c < b)
+    {
+        cout << c;
+    }
+    else if(a == b && a < c)
+    {
+        cout << a;
+    }
+    else if(b == c && b < a)
+    {
+        cout << b;
+    }
+    else if(c == a && c < b)
     {
         cout << c;
     }
