@@ -8,11 +8,7 @@ int main() {
     {
         cout << "A";
     }
-    else
-    {
-        cout << "B";
-    }
-    if(a == c)
+    else if(a == c)
     {
         if(b > d)
         {
@@ -22,6 +18,10 @@ int main() {
         {
             cout << "B";
         }
+    }
+    else
+    {
+        cout << "B";
     }
     return 0;
 }
